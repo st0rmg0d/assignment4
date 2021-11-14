@@ -1,6 +1,6 @@
-import random
 from flask_sqlalchemy import SQLAlchemy
 from flask import render_template, request, Flask, flash
+import random
 from scrapper import scrap
 
 
